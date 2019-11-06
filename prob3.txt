@@ -1,0 +1,13 @@
+c Example CNF DIMACS file (Dec 2015)
+c Source: http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
+c Note comment lines, each starting with 'c'
+c Note problem statement p cnf #vars #clauses
+c Note problems delimited by '0' NOT newline
+c Note This sample problem is (x1 or x3 or ~x4) and (x4) and (x2 or ~x3) and (x1 or ~x4) and (~x1 or x2 or x3) and (~x4)
+p cnf 4 6
+1 3 -4 0
+4 0 2
+-3 0
+1 -4 0
+-1 2 3 0
+-4 0
